@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Booking | Somalia Tourism Board</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>Somalia Tourism Board</h1>
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="booking.html" class="active">Booking</a></li>
+
+<li><a href="help.html">Help</a></li>
+
+<li><a href="about.html">About</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="welcome">
+
+<h2>Tour Booking Form</h2>
+
+<p>
+
+Complete the form below to reserve your tourism trip.
+
+</p>
+
+</section>
+
+<form action="#" method="post">
+
+<fieldset>
+
+<legend>Personal Information</legend>
+
+<label for="fullname">Full Name</label>
+
+<input
+type="text"
+id="fullname"
+name="fullname"
+placeholder="Enter your full name"
+required>
+
+<label for="email">Email Address</label>
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="example@gmail.com"
+required>
+
+<label for="phone">Phone Number</label>
+
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="+252 61 XXXXXXX"
+required>
+
+<label for="country">Country</label>
+
+<input
+type="text"
+id="country"
+name="country"
+placeholder="Enter your country"
+required>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Tour Details</legend>
+
+<label for="major">Tour Package</label>
+
+<select id="major" name="major" required>
+
+<option value="">Choose Package</option>
+
+<option>Beach Tour</option>
+
+<option>Historical Tour</option>
+
+<option>Adventure Tour</option>
+
+<option>Mountain Tour</option>
+
+<option>City Tour</option>
+
+</select>
+
+<br><br>
+
+<label>Gender</label>
+
+<input type="radio" id="male" name="gender" value="Male" required>
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Activities You Like</legend>
+
+<input type="checkbox" id="beach" name="hobby">
+<label for="beach">Beach Visits</label>
+
+<br>
+
+<input type="checkbox" id="history" name="hobby">
+<label for="history">Historical Sites</label>
+
+<br>
+
+<input type="checkbox" id="camping" name="hobby">
+<label for="camping">Camping</label>
+
+<br>
+
+<input type="checkbox" id="photography" name="hobby">
+<label for="photography">Photography</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Comments</legend>
+
+<label for="comments">Additional Information</label>
+
+<textarea
+id="comments"
+name="comments"
+rows="6"
+placeholder="Write your comments here..."></textarea>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Book Now" class="btn">
+
+<input type="reset" value="Reset Form" class="btn">
+
+</form>
+
+</main>
+
+<footer>
+
+<p>
+
+© 2026 Somalia Tourism Board | All Rights Reserved
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
